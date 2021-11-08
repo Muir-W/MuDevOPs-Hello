@@ -10,7 +10,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello From Point Venture"
-   response.end('Hello From Point Venture\n')
+   response.end('Hello World - CloudFormation template generated website\n')
 }).listen(3333)
 
 // Console will print the message
